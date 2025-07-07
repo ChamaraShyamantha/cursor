@@ -1,28 +1,42 @@
 <template>
   <div>
-    <!-- Featured Post -->
-    <FeaturedPost :post="featuredPost" class="mb-8" />
+    <!-- Main grid: 2 columns on desktop, 1 on mobile -->
+    <div class="container mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
+      <!-- Main content -->
+      <div class="lg:col-span-8 space-y-8">
+        <!-- Featured Post -->
+        <FeaturedPost :post="featuredPost" />
 
-    <!-- Carousels -->
-    <PostCarousel title="Most Popular" :posts="mostPopular" class="mb-8" />
-    <PostCarousel title="Must Read" :posts="mustRead" class="mb-8" />
+        <!-- Carousels -->
+        <PostCarousel title="Most Popular" :posts="mostPopular" />
+        <PostCarousel title="Must Read" :posts="mustRead" />
 
-    <!-- Category Section: Food & Recipes -->
-    <h2 class="text-xl font-extrabold mb-4">Food & Recipes</h2>
-    <div class="grid md:grid-cols-2 gap-6 mb-8">
-      <PostCard v-for="post in foodRecipes" :key="post.id" :post="post" />
-    </div>
+        <!-- Category Section: Food & Recipes -->
+        <h2 class="text-xl font-extrabold mb-4 mt-8">Food & Recipes</h2>
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+          <PostCard v-for="post in foodRecipes" :key="post.id" :post="post" />
+        </div>
 
-    <!-- Category Section: Podcasts & Music -->
-    <h2 class="text-xl font-extrabold mb-4">Podcasts & Music</h2>
-    <div class="grid md:grid-cols-2 gap-6 mb-8">
-      <PostCard v-for="post in podcastsMusic" :key="post.id" :post="post" />
-    </div>
+        <!-- Category Section: Podcasts & Music -->
+        <h2 class="text-xl font-extrabold mb-4">Podcasts & Music</h2>
+        <div class="grid md:grid-cols-2 gap-6 mb-8">
+          <PostCard v-for="post in podcastsMusic" :key="post.id" :post="post" />
+        </div>
 
-    <!-- Recent Stories -->
-    <h2 class="text-xl font-extrabold mb-4">Recent stories</h2>
-    <div class="grid md:grid-cols-3 gap-6 mb-8">
-      <PostCard v-for="post in recentStories" :key="post.id" :post="post" />
+        <!-- Recent Stories -->
+        <h2 class="text-xl font-extrabold mb-4">Recent stories</h2>
+        <div class="grid md:grid-cols-3 gap-6 mb-8">
+          <PostCard v-for="post in recentStories" :key="post.id" :post="post" />
+        </div>
+      </div>
+
+      <!-- Sidebar (desktop only) -->
+      <div class="hidden lg:block lg:col-span-4 space-y-8">
+        <Sidebar
+          :latest="recentStories"
+          :dontMiss="mostPopular"
+        />
+      </div>
     </div>
 
     <!-- Footer Columns -->
@@ -35,6 +49,7 @@ import FeaturedPost from '~/components/FeaturedPost.vue'
 import PostCarousel from '~/components/PostCarousel.vue'
 import PostCard from '~/components/PostCard.vue'
 import FooterColumns from '~/components/FooterColumns.vue'
+import Sidebar from '~/components/Sidebar.vue'
 
 const featuredPost = {
   id: 1,
