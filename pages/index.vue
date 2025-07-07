@@ -45,7 +45,7 @@ const featuredPost = {
   link: '#'
 }
 const mostPopular = [
-  { id: 2, image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb', category: 'Health', title: 'Can You Tweeze Leg Hair? Guide to Painful Body Hair Safety', meta: 'Jan 2024', summary: 'Is tweezing leg hair safe? Here's what you need to know.', link: '#' },
+  { id: 2, image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb', category: 'Health', title: 'Can You Tweeze Leg Hair? Guide to Painful Body Hair Safety', meta: 'Jan 2024', summary: 'Is tweezing leg hair safe? Here\'s what you need to know.', link: '#' },
   { id: 3, image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca', category: 'Technology', title: 'How Does a Power Bank Work?', meta: 'Jan 2024', summary: 'A simple explanation of how power banks charge your devices.', link: '#' },
   { id: 4, image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308', category: 'Uncategorized', title: 'How to Teach First Aid in a Fun Way', meta: 'Jan 2024', summary: 'Make first aid fun and memorable for kids and adults.', link: '#' },
 ]
