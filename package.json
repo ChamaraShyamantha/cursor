@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@nuxt/image": "^1.0.0",
-    "@nuxtjs/supabase": "^0.3.4",
     "@nuxtjs/tailwindcss": "^6.9.1",
     "@nuxtjs/robots": "^3.0.0",
     "@supabase/supabase-js": "^2.39.7",
