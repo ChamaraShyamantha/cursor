@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/supabase',
     '@nuxt/image',
-    '@nuxtjs/sitemap',
+    '@nuxt/sitemap',
     '@nuxtjs/robots',
   ],
   runtimeConfig: {
