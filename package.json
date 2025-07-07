@@ -14,7 +14,7 @@
     "@nuxtjs/supabase": "^0.4.0",
     "@nuxtjs/tailwindcss": "^6.9.1",
     "@nuxtjs/robots": "^3.0.0",
-    "@nuxt/sitemap": "^1.0.0",
+    "@nuxtjs/sitemap": "^3.0.0",
     "@supabase/supabase-js": "^2.39.7",
     "nuxt": "^3.10.0"
   },
