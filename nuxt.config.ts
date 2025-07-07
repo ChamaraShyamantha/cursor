@@ -5,7 +5,6 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/supabase',
     '@nuxt/image',
-    '@nuxtjs/sitemap',
     '@nuxtjs/robots',
   ],
   runtimeConfig: {
@@ -25,9 +24,6 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
     },
-  },
-  sitemap: {
-    hostname: 'https://yourdomain.com',
   },
   robots: {
     rules: [{ userAgent: '*', allow: '/' }],
