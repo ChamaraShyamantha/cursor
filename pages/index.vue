@@ -31,12 +31,12 @@
       </div>
 
       <!-- Sidebar (desktop only) -->
-      <div class="hidden lg:block lg:col-span-4 space-y-8">
+      <!-- <div class="hidden lg:block lg:col-span-4 space-y-8">
         <Sidebar
           :latest="recentStories"
           :dontMiss="mostPopular"
         />
-      </div>
+      </div> -->
     </div>
 
     <!-- Footer Columns -->
