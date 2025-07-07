@@ -41,7 +41,7 @@ const featuredPost = {
   image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308',
   category: 'Lifestyle',
   title: 'How to Prevent Holes in Heel of Socks: The Ultimate Guide',
-  summary: 'Socks are among everyone's wardrobe, yet avoiding a hole is surprisingly hard. Here's how to tackle it.',
+  summary: "Socks are among everyone's wardrobe, yet avoiding a hole is surprisingly hard. Here's how to tackle it.",
   link: '#'
 }
 const mostPopular = [
@@ -65,7 +65,7 @@ const podcastsMusic = [
   { id: 13, image: 'https://images.unsplash.com/photo-1518717758536-85ae29035b6d', category: 'Music', title: 'How to Prevent Holes in Heel of Socks: The Ultimate Guide', meta: 'Jan 2024', summary: 'Sock care for musicians.', link: '#' },
 ]
 const recentStories = [
-  { id: 14, image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca', category: 'Health', title: 'How to Prevent Holes in Heel of Socks: The Ultimate Guide', meta: 'Jan 2024', summary: 'Socks are among everyone's wardrobe, yet avoiding a hole is surprisingly hard. Here's how to tackle it.', link: '#' },
+  { id: 14, image: 'https://images.unsplash.com/photo-1465101046530-73398c7f28ca', category: 'Health', title: 'How to Prevent Holes in Heel of Socks: The Ultimate Guide', meta: 'Jan 2024', summary: "Socks are among everyone's wardrobe, yet avoiding a hole is surprisingly hard. Here's how to tackle it.", link: '#' },
   { id: 15, image: 'https://images.unsplash.com/photo-1506744038136-46273834b3fb', category: 'Health', title: 'The Best Way to Keep Feet Warm in Cold Weather: A Complete Guide', meta: 'Jan 2024', summary: 'Keep your feet warm and healthy.', link: '#' },
   { id: 16, image: 'https://images.unsplash.com/photo-1519125323398-675f0ddb6308', category: 'Science', title: 'Can a Dense Memory Foam Pillow Cause Tinnitus? A Sleep Expert Explains', meta: 'Jan 2024', summary: 'Pillow safety and sleep health.', link: '#' },
 ]
