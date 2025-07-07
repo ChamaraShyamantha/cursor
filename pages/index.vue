@@ -4,6 +4,7 @@
     <div class="container mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-12 gap-8">
       <!-- Main content -->
       <div class="lg:col-span-8 space-y-8">
+        <div>Hello World</div>
         <!-- Featured Post -->
         <FeaturedPost :post="featuredPost" />
 
